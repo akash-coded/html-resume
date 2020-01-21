@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- This defines the page's character set -->
+    <meta charset="UTF-8" />
+
+    <!-- Tells the browser how to render a page on a mobile device. 
+        Presence of this tag indicates to search engines that the page is mobile friendly -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+
+    <!-- Provides a short description of the page, 
+        which is sometimes used as a snippet in the search results -->
+    <meta
+      name="description"
+      content="A simple resume created using HTML and Bootstrap"
+    />
+
+    <!-- Controls the behavior of search engine crawling and indexing -->
+    <meta name="robots" content="index, follow" />
+
+    <meta name="author" content="Akash Das" />
+
+    <title>Resume | Akash Das</title>
+
+    <link rel="icon" href="img/favicon.png" type="image/png" sizes="16x16" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom style -->
+    <link href="css/resume.min.css" rel="stylesheet" />
+
+    <!-- Custom fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body id="page-top" data-spy="scroll" data-target=".navbar">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
+      id="sideNav"
+    >
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Akash Das</span>
+        <span class="d-none d-lg-block">
+          <img
+            class="img-fluid img-profile rounded-circle mx-auto mb-2"
+            src="img/profile.jpg"
+            alt="Photo of Akash Das"
+          />
+        </span>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience"
+              >Experience</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education"
+              >Education</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests"
+              >Interests</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+      <section
+        class="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="about"
+      >
+        <div class="w-100">
+          <h1 class="mb-0">
+            Akash
+            <span class="text-primary">Das</span>
+          </h1>
+          <div class="subheading mb-5">
+            <span class="contact-details"
+              >Silicon Institute of Technology, Bhubaneswar</span
+            >
+            <span class="contact-details">(+91)-8594824595</span>
+            <span
+              ><a href="mailto:akashdas838@gmail.com"
+                >akashdas838@gmail.com</a
+              ></span
+            >
+          </div>
+          <p class="lead mb-5">
+            Inquisitive, focused computer science graduate with an eye for
+            detail. Complete knowledge of programming languages like C and Java,
+            with a strong foundation in math, logic, and cross-platform coding.
+          </p>
+        </div>
+      </section>
+
+      <hr class="m-0" />
+
+      <section
+        class="resume-section p-3 p-lg-5 d-flex justify-content-center"
+        id="experience"
+      >
+        <div class="w-100">
+          <h2 class="mb-5">Experience</h2>
+
+          <div
+            class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="resume-content">
+              <h3 class="mb-0">Wordpress Development</h3>
+              <div class="subheading mb-3">The Unicorn Queen</div>
+              <p>
+                An active blogging website based on Wordpress and hosted on Go
+                Daddy which I have set-up and I continue to maintain for a
+                client. Hosted and managed the CPanel for the website. And
+                designed the content structure.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 2018 - Present</span>
+            </div>
+          </div>
+
+          <div
+            class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="resume-content">
+              <h3 class="mb-0">Writing Technical Books</h3>
+              <div class="subheading mb-3">LectureNotes</div>
+              <p>
+                Compiling and curating content to lucidly elucidate the core
+                concepts of Compiler Design. Another book on explaining C
+                Programming to beginners who are unfamiliar to the world of
+                programming is in the pipeline.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">October 2018 - Present</span>
+            </div>
+          </div>
+
+          <div
+            class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="resume-content">
+              <h3 class="mb-0">Tutoring</h3>
+              <div class="subheading mb-3">Self-employed</div>
+              <p>
+                I have been teaching core programming concepts of languages
+                encompassing C, Java and Python since 5 years. The tutored
+                belong to a wide age group, spanning from high school students
+                to final year engineering students. I am also a verified
+                educator on Unacademy.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">July 2015 - Present</span>
+            </div>
+          </div>
+
+          <div
+            class="resume-item d-flex flex-column flex-md-row justify-content-between"
+          >
+            <div class="resume-content">
+              <h3 class="mb-0">Social Media Marketing Automation</h3>
+              <div class="subheading mb-3">SmatSocial</div>
+              <p>
+                Collaboratively administrated empowered markets via
+                plug-and-play networks. Dynamically catered to B2C users after
+                installed base benefits. Learnt and implemented post automation
+                on various popular social media using NLP tools.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">August 2017 - October 2017</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="m-0" />
+
+      <section
+        class="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="education"
+      >
+        <div class="w-100">
+          <h2 class="mb-5">Education</h2>
+
+          <div
+            class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="resume-content">
+              <h3 class="mb-0">Silicon Institute of Technology</h3>
+              <div class="subheading mb-3">
+                Bachelor of Technology with Honors
+              </div>
+              <div>Computer Science and Engineering</div>
+              <p>CGPA: 8.61</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">August 2016 - April 2020</span>
+            </div>
+          </div>
+
+          <div
+            class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="resume-content">
+              <h3 class="mb-0">ODM Public School</h3>
+              <div class="subheading mb-3">Associate in Science</div>
+              <div>Board: CBSE</div>
+              <p>Percentage: 91%</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">July 2013 - March 2015</span>
+            </div>
+          </div>
+
+          <div
+            class="resume-item d-flex flex-column flex-md-row justify-content-between"
+          >
+            <div class="resume-content">
+              <h3 class="mb-0">St. James' Convent School</h3>
+              <div class="subheading mb-3">High School</div>
+              <div>Board: ICSE</div>
+              <p>Percentage: 94.67%</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">May 2001 - March 2013</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="m-0" />
+
+      <section
+        class="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="skills"
+      >
+        <div class="w-100">
+          <h2 class="mb-5">Skills</h2>
+
+          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              C
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              C++
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Java
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Python
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              MySQL
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Tomcat
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Wordpress
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <hr class="m-0" />
+
+      <section
+        class="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="interests"
+      >
+        <div class="w-100">
+          <h2 class="mb-5">Interests</h2>
+          <p>
+            Apart from being a developer, I enjoy most of my time surfing the
+            internet. I spend a large amount of my free time exploring the
+            latest technology advancements. In my leisure hours, I am a
+            smartphone enthusiast. I often delve into YouTube to enjoy tech
+            content.
+          </p>
+          <p class="mb-0">
+            When outdoors, I indulge in driving cars and bikes. I spend some
+            time looking up about new automobiles coming up. I am an avid
+            motoring aficionado and a novice racer.
+          </p>
+        </div>
+      </section>
+
+      <hr class="m-0" />
+
+      <section
+        class="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="awards"
+      >
+        <div class="w-100">
+          <h2 class="mb-5">Awards</h2>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              InfyTQ Certified Software Programmer
+            </li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Runners-up - National Level Oratory Contest Yugmaa
+            </li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              1<sup>st</sup> Place - AICTE - Essay Writing Competition 2009
+            </li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              1<sup>st</sup> Place - Silicon Institute of Technology - Noesis
+              Hackathon 2017 &amp; 2018
+            </li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              3<sup>rd</sup> Place - St. James' Convent School - Odisha Talent
+              Search 2005
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom script -->
+    <script src="js/resume.min.js"></script>
+  </body>
+</html>
